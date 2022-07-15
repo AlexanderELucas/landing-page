@@ -1,6 +1,3 @@
-/* .show-me{
-    border: 1px solid red;
-} */
 /* alternate color between #e7e8e8 and #101f1f */
 
 
@@ -11,6 +8,7 @@
 html {
     scrollbar-width: none;
 }
+
 
 /* strike left and right transparent background set for page styling */
 .strike {
@@ -33,8 +31,13 @@ html {
 }
 .nav-button {
     border-radius: 50% 20% / 20% 40%;
+    background-color: #E7E8E8;
+    transition: 1s;
 }
-
+.nav-button:hover {
+    border-radius: 20% 40% / 50% 20%;
+    background-color: #a6a9a9;    
+}
 .sticky-nav {
     background-color: #101f1f;
 }
@@ -76,11 +79,6 @@ html {
 
 
 
-
-
-
-
-
 /* Kuroheim in Action */
 #kuroheim-in-action {
     background-color: #101f1f;
@@ -102,9 +100,6 @@ html {
     left: 10%;
     width: 80%;
     height: 80%;
-    
-    
-    
 }
 
 
@@ -112,7 +107,7 @@ html {
 /* Become a Benefactor */
 #benefactor {
     background-color: #E7E8E8;
-    color: #101f1f;
+    color: #101f1f; 
 }
 
 
