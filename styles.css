@@ -28,7 +28,6 @@ html {
 }
 #logo-name {
     color: white;
-    transition: 0.6s;
 }
 .nav-button {
     border-radius: 50% 20% / 20% 40%;
