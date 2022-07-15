@@ -12,8 +12,8 @@ html {
     scrollbar-width: none;
 }
 
-
-.body {
+/* strike left and right transparent background set for page styling */
+.strike {
     background-color: #E7E8E8;
 }
 
@@ -21,34 +21,22 @@ html {
 /* Header*/
 #nav-bar {
     background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16,31,31,1) 80%, rgba(16,31,31,1) 100%);
-    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16,31,31,1) 80%, rgba(16,31,31,1) 100%);
+   
 }
-
 #header-img {
     object-fit: contain;
     width: 150px; 
 }
-
-
-
 #logo-name {
     color: white;
 }
-
-.nav-link {
+.nav-button {
     border-radius: 50% 20% / 20% 40%;
 }
 
 .sticky-nav {
     background-color: #101f1f;
-}
-.sticky-nav-border {
-    background-color: rgba(0, 0, 0, 0);
-    
-    width: fit-content;
-    
-    
 }
 
 
@@ -94,7 +82,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16
 
 
 /* Kuroheim in Action */
-.kuroheim-in-action {
+#kuroheim-in-action {
     background-color: #101f1f;
     color: #E7E8E8;
 }
@@ -122,7 +110,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16
 
 
 /* Become a Benefactor */
-.benefactor {
+#benefactor {
     background-color: #E7E8E8;
     color: #101f1f;
 }

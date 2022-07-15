@@ -51,46 +51,56 @@
                     </div>
                 </div>
                 <div class="col-10 col-md-4 d-none d-md-flex justify-content-between align-items-center flex-grow-2">
-                    <button class="nav-link p-1">
+                    <button class="nav-button p-1 dropdown-toggle" type="button" id="dropdown-menu-button" data-bs-toggle="dropdown" aria-expanded="false">
                         About Kuroheim
                     </button>
-                    <button class="nav-link p-1">
-                        Kuroheim in Action
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-menu-button">
+                        <li><a class="dropdown-item" href="#community">Community</a></li>
+                        <li><a class="dropdown-item" href="#battle">Foam Fighting</a></li>
+                        <li><a class="dropdown-item" href="#service">Giving Back</a></li>
+                    </ul>
+                    <button class="nav-button p-1" type="button">
+                        <a class="nav-link" href="#kuroheim-in-action">Kuroheim in Action</a>
                     </button>
-                    <button class="nav-link p-1">
-                        Become a Benefactor
+                    <button class="nav-button p-1">
+                        <a class="nav-link" href="#benefactor">Become a Benefactor</a>
                     </button>
                 </div>
             </div>
         </nav>
         <div class="d-none d-md-block m-0 p-0">
-            <svg class="sticky-nav-border g-0 p-0 m-0 show-me" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150"><path fill="#101f1f" fill-opacity="1" d="M0,128L1440,0L1440,0L0,0Z"></path></svg>
+            <svg class="strike" class="sticky-nav-border g-0 p-0 m-0 show-me" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150"><path fill="#101f1f" fill-opacity="1" d="M0,128L1440,0L1440,0L0,0Z"></path></svg>
         </div>
     </header>
     
     <!-- Sticky Mobile Nav  -->
     <!-- small device nav links -->
     <div class="d-flex d-md-none justify-content-center p-0 pt-2 pb-2 sticky-top sticky-nav">
-        <button class="nav-link p-1">
+        <button class="nav-button p-1 dropdown-toggle" type="button" id="dropdown-menu-button" data-bs-toggle="dropdown" aria-expanded="false">
             About Kuroheim
         </button>
-        <button class="nav-link p-1">
-            Kuroheim in Action
+        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-button">
+            <li><a class="dropdown-item" href="#community">Community</a></li>
+            <li><a class="dropdown-item" href="#battle">Foam Fighting</a></li>
+            <li><a class="dropdown-item" href="#service">Giving Back</a></li>
+        </ul>
+        <button class="nav-button p-1" type="button">
+            <a class="nav-link" href="#kuroheim-in-action">Kuroheim in Action</a>
         </button>
-        <button class="nav-link p-1">
-            Become a Benefactor
+        <button class="nav-button p-1">
+            <a class="nav-link" href="#benefactor">Become a Benefactor</a>
         </button>
     </div>    
-    <!-- small device slice -->
+    <!-- small device strike -->
     <div class="d-flex d-md-none m-0 p-0">
-        <svg class="sticky-nav-border g-0 p-0 m-0 show-me" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#101f1f" fill-opacity="1" d="M0,128L1440,0L1440,0L0,0Z"></path></svg>
+        <svg class="sticky-nav-border g-0 p-0 m-0 strike" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#101f1f" fill-opacity="1" d="M0,128L1440,0L1440,0L0,0Z"></path></svg>
     </div>
 
     <!-- Community Blurb and Carousel -->
-    <div class="container-fluid community ps-3 pe-3">
+    <div class="container-fluid community ps-3 pe-3" id="community">
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-md-6 blurb">
-                <h1> Kuroheim Community</h1>
+                <a class="nav-link" href="#header"><h1>Community</h1></a>
                 <p>
                     At it's core, Kuroheim is a community that looks to help it's members grow in every aspect of their life.
                 </p>
@@ -165,10 +175,10 @@
     </div>
 
     <!-- Strike Right Background -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,64L1440,288L1440,320L0,320Z"></path></svg>
+    <svg class="strike" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,64L1440,288L1440,320L0,320Z"></path></svg>
 
     <!-- Battle Blurb and Carousel -->
-    <div class="container-fluid battle">
+    <div class="container-fluid battle" id="battle">
         <div class="row d-flex justify-content-center">
             <div id="battle-carousel" class="carousel slide col-10 col-md-5 order-2 order-md-1 d-flex justify-content-center" data-bs-ride="true">
                 <div class="carousel-indicators">
@@ -236,7 +246,7 @@
             </div>
             
             <div class="col-12 col-md-6 order-1 order-md-2 blurb">
-                <h1> Kuroheim battle</h1>
+                <a class="nav-link" href="#header"><h1>Foam Fighting</h1></a>
                 <p>
                     A deep part of Kuroheim's culture is it's roots as a foam fighting group.
                 </p>
@@ -245,13 +255,13 @@
     </div>
 
     <!-- Strike Left Background -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,224L1440,32L1440,0L0,0Z"></path></svg>
+    <svg class="strike" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,224L1440,32L1440,0L0,0Z"></path></svg>
 
     <!-- Service Blurb and Carousel -->
-    <div class="container-fluid service ps-3 pe-3">
+    <div class="container-fluid service ps-3 pe-3" id="service">
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-md-6 blurb">
-                <h1> Kuroheim service</h1>
+                <a class="nav-link" href="#header"><h1>Giving Back</h1></a>
                 <p>
                     At it's core, Kuroheim is a service that looks to help it's members grow in every aspect of their life.
                 </p>
@@ -326,17 +336,17 @@
     </div>
     
     <!-- Strike Right Background -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,64L1440,288L1440,320L0,320Z"></path></svg>
+    <svg class="strike" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,64L1440,288L1440,320L0,320Z"></path></svg>
 
 
 
 
 
      <!-- Kuroheim in Action-->
-    <div class="d-flex flex-column justify-content-center kuroheim-in-action">
+    <div class="container-fluid d-flex flex-column justify-content-center" id="kuroheim-in-action">
         <div class="d-flex justify-content-center">
-            <div class="col d-flex justify-content-center mb-2">
-                <h1>Kuroheim in Action</h1>
+            <div class="d-flex justify-content-center mb-2">
+                <a class="nav-link" href="#header"><h1>Kuroheim in Action</h1></a>
             </div>
         </div>
         <div class="row d-flex justify-content-center">
@@ -347,24 +357,79 @@
     </div>
     
     <!-- Strike Left Background -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,224L1440,32L1440,0L0,0Z"></path></svg>
-
-    
-    
-    
-    
+    <svg class="strike" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#101f1f" fill-opacity="1" d="M0,224L1440,32L1440,0L0,0Z"></path></svg>
 
 
-   
-
-    
-    
     <!-- Become a Benefactor -->
-    <div class="benefactor">
-        Become a Benefactor
+    <div class="container-fluid" id="benefactor">
+        <div class="d-flex justify-content-center mb-2">
+            <a class="nav-link" href="#header"><h1>Become a Benefactor</h1></a>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="col-7 col-md-3 m-2">
+                <div class="card">
+                    <h2 class="card-header d-flex align-items-center flex-column">Squire</h2>
+                    <div class="card-body d-flex align-items-center flex-column">
+                    <h4 class="card-title">$15 / mo</h4>
+                    <ul>
+                        <li>Kuroheim Pendant</li>
+                        <li>Kuroheim Patch</li>
+                    </ul>
+                    <a href="https://www.facebook.com/Kuroheim" class="btn btn-primary">Help the Keep</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 col-md-3 m-2"> 
+                <div class="card">
+                    <h2 class="card-header d-flex align-items-center flex-column">Prime</h2>
+                    <div class="card-body d-flex align-items-center flex-column">
+                    <h4 class="card-title">$30 / mo</h4>
+                    <ul>
+                        <li>Kuroheim Pendant</li>
+                        <li>Kuroheim Patch</li>
+                        <li>Free Repairs</li>
+                        <li>Weapon Sheath</li>
+                        <li>Steel Bracers & Greaves</li>
+                    </ul>
+                    <h5>(After 6 months)</h5>
+                    <ul>
+                        <li>30% off Weapons</li>
+                    </ul>
+                    <a href="https://www.facebook.com/Kuroheim" class="btn btn-primary">Help the Keep</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 col-md-3 m-2">
+                <div class="card">
+                    <h2 class="card-header d-flex align-items-center flex-column">Overlord</h2>
+                    <div class="card-body d-flex align-items-center flex-column">
+                    <h4 class="card-title">$100 / mo</h4>
+                    <ul>
+                        <li>Kuroheim Pendant</li>
+                        <li>Kuroheim Patch</li>
+                        <li>Free Repairs</li>
+                        <li>Weapon Sheath</li>
+                        <li>Steel Bracers & Greaves</li>
+                    </ul>
+                    <h5>(After 6 months)</h5>
+                    <ul>
+                        <li>Weapon Costs Waived</li>
+                        <li>Steel Chest Armor</li>
+                        <li>Wooden Armor Stand</li>
+                    </ul>
+                    <a href="https://www.facebook.com/Kuroheim" class="btn btn-primary">Help the Keep</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-   
-    
+
+
+
+
+
+
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
