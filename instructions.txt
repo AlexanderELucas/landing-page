@@ -22,6 +22,4 @@ Fulfill the user stories and pass all the tests below to complete this project. 
 Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
 
 
-
- <!-- Logo img https://cdn.pixabay.com/photo/2016/02/07/17/51/eye-1185226__340.png -->
-    <!-- Why video https://www.youtube.com/watch?v=Q2W_nNdReXM -->
+<- video https://www.youtube.com/watch?v=NmYEYSb5h-4 ->

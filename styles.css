@@ -58,11 +58,9 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16
 
 
 /* About Kuroheim */
-/* Community Slides */
 .blurb>p {
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
-
 .blurb {
     display: flex;
     flex-direction: column;
@@ -71,33 +69,60 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16
     flex-wrap: nowrap;
     text-align: center;
 }
+/* Community Slides */
 .community {
     background-color: #E7E8E8;
     color: #101f1f
 }
-
+/* Battle Slides */
 .battle {
     background-color: #101f1f;
     color: #E7E8E8;
 }
-
-/* Battle Slides */
-
-
-
 /* Service Slides */
+.service {
+    background-color: #E7E8E8;
+    color: #101f1f;
+}
+
+
+
+
+
+
 
 
 
 /* Kuroheim in Action */
-.video {
+.kuroheim-in-action {
     background-color: #101f1f;
     color: #E7E8E8;
 }
+/* set video to scale with Viewport */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-wrapper #video {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    
+    
+    
+}
+
 
 
 /* Become a Benefactor */
-.benfactor {
+.benefactor {
     background-color: #E7E8E8;
     color: #101f1f;
 }
