@@ -1,0 +1,108 @@
+/* .show-me{
+    border: 1px solid red;
+} */
+/* alternate color between #e7e8e8 and #101f1f */
+
+
+/* hide scrollbar but still maintain scrolling*/
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none;
+}
+
+
+.body {
+    background-color: #E7E8E8;
+}
+
+
+/* Header*/
+#nav-bar {
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(16,31,31,1) 80%, rgba(16,31,31,1) 100%);
+    width: 100%;
+}
+
+#header-img {
+    object-fit: contain;
+    width: 150px; 
+}
+
+
+
+#logo-name {
+    color: white;
+}
+
+.nav-link {
+    border-radius: 50% 20% / 20% 40%;
+}
+
+.sticky-nav {
+    background-color: #101f1f;
+}
+.sticky-nav-border {
+    background-color: rgba(0, 0, 0, 0);
+    
+    width: fit-content;
+    
+    
+}
+
+
+
+/* EMAIL */
+
+
+
+/* About Kuroheim */
+/* Community Slides */
+.blurb>p {
+    font-size: 1.5em;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.community {
+    background-color: #E7E8E8;
+    color: #101f1f
+}
+
+.battle {
+    background-color: #101f1f;
+    color: #E7E8E8;
+}
+
+/* Battle Slides */
+
+
+
+/* Service Slides */
+
+
+
+/* Kuroheim in Action */
+.video {
+    background-color: #101f1f;
+    color: #E7E8E8;
+}
+
+
+/* Become a Benefactor */
+.benfactor {
+    background-color: #E7E8E8;
+    color: #101f1f;
+}
+
+
+
+
+
