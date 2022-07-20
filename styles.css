@@ -44,10 +44,6 @@ html {
 
 
 
-/* EMAIL */
-
-
-
 /* About Kuroheim */
 .blurb>p {
     font-size: 1.4em;
@@ -107,4 +103,23 @@ html {
 #benefactor {
     background-color: #E7E8E8;
     color: #101f1f; 
+}
+.bene-btn {
+    background-color: #101f1f;
+    color: #E7E8E8;
+    transition: 0.5s;
+}
+
+
+
+/* Kuroheim Email */
+#kuroheim-email {
+    background-color: #101f1f;
+    color: #E7E8E8;
+}
+
+.email-btn {
+    background-color: #E7E8E8;
+    color: #101f1f;
+    transition: 0.5s;
 }
